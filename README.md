@@ -12,3 +12,5 @@ Start to End
 
 # YOLOv8 for Object-Detection via
 -yolo task=detect mode=predict model=yolov8n.pt source=Here put the name of image.
+
+when i run this i face this error FileNotFoundError: [WinError 2] The system cannot find the file specified     
