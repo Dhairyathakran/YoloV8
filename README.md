@@ -17,3 +17,11 @@ when i run this i face this error FileNotFoundError: [WinError 2] The system can
 
 we also set the confidence number using conf=0.8
 we also save the output using save_txt=True
+we also crop the output using save_crop=True
+we also hide the Levels and confidence using hide_levels=True , hide_conf=True
+
+if we apply segmentation run this code -yolo task=segment mode=predict model=yolov8n-seg.pt source=Here put the name of image.
+
+if convert the yolov8 model into Onnx format
+
+-yolo mode=export task=detect model=yolov8n.pt format=onnx
